@@ -1,0 +1,154 @@
+/* Photo by Aaron Huber on Unsplash */
+/* Photo by Dustin Scarpitti on Unsplash */
+/* Photo by Nick Scheerbart on Unsplash */
+body {
+  /* background-image: url(../docs/woods.jpg); */
+  /* background-image: url(../docs/trees.jpg); */
+  /* background-image: url(../docs/tree2.jpg); */
+  background-color: #fafafa;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+a {
+  color:#fefefe;
+}
+
+img {
+  height:100%;
+}
+.cell {
+  text-align: center;
+}
+
+.home-page-container {
+  /* background-color:yellow; */
+}
+
+.services-container,
+.services-container>.grid-x {
+  height:100%;
+  position:relative;
+  /* background-color: #fefefe; */
+}
+
+.services-box {
+  transition: all 0.5s;
+  overflow: hidden;
+  height:100%;
+}
+
+.services-box>.grid-x {
+  height:100%;
+  font-size:2em;
+}
+
+.services-box>.grid-x>.cell {
+  background-color :rgba(255,255,255, 0.6);;
+
+  /* margin: 0 15px 0 15px; */
+  /* width: calc(100% - 30px); */
+}
+
+.services-container>div>.services-box:hover {
+  z-index: 1;
+  box-shadow: 1px 1px 20px 7px #000;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.service-overlay {
+  z-index:2;
+  height:0px;
+  transition: all 0.5s;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+}
+
+.service-overlay.viewing {
+  height:100%;
+}
+
+.social-icons,
+.social-icons>a {
+  color:#0a0a0a;
+}
+
+.page-container {
+
+}
+
+/* ratio 1:1 */
+.insta-photo-frame {
+  background-color: white;
+}
+
+
+
+
+#painting {
+  /* background-color: red; */
+  background-image: url('../docs/white1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#furnitureRefurbishing {
+  /* background-color: blue; */
+  background-image: url('../docs/white1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#staining {
+  /* background-color: green; */
+  background-image: url('../docs/white1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#painting-container {
+  background-color: red;
+}
+#furnitureR-container {
+  background-color: blue;
+}
+#staining-container {
+  background-color: green;
+}
+#health-container {
+  /* background-color: white; */
+  background-image: url("../docs/para.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contact-container {
+  background-color: black;
+}
+
+#close-overlay {
+  background-color: white;
+  cursor: pointer;
+}
+
+#insta-container {
+  height:100%;
+  background-color: white;
+}
+
+#insta-photo-container {
+  /* background-color: black; */
+  /* margin-left: 0.9375rem;
+  margin-right: 0.9375rem; */
+}
+
+#insta-photo-container {
+  height:100%;
+  overflow: hidden;
+}

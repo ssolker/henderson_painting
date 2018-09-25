@@ -1,0 +1,17 @@
+.header-top-bar {
+  background-color: #fefefe;
+  color:#0a0a0a;
+}
+
+.nav-top-bar {
+  background-color: rgb(35, 31, 32);
+  color: #fefefe;
+}
+
+.title-bar-center {
+  font-size: 80%;
+  text-align: center;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
